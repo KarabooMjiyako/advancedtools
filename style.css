@@ -160,26 +160,4 @@ img {
       }
     }
 
-   .navbar {
-      padding: 15px;
-      align-items: center;
-      text-align: center;
-    }
-
-    .navbar-toggler {
-      border-color: #ffffff; /* Set the color of the mobile menu button */
-    }
-
-    .navbar-toggler-icon {
-      background-color: #000000; /* Set the color of the mobile menu icon */
-    }
-
-    /* Sticky top navigation bar for larger screens */
-    @media (min-width: 992px) {
-      .navbar {
-        position: sticky;
-        top: 0;
-        background-color: #ffffff;
-        z-index: 1000;
-      }
-    }
+  
