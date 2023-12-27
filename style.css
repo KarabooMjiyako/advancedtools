@@ -113,7 +113,6 @@ p {
   font-size: 28px;
   text-decoration: none;
 }
-
 .email-link:hover {
   text-decoration: underline;
 }
@@ -186,5 +185,29 @@ img {
       h1,
       h3 {
         font-size: 32px;
+      }
+    }
+
+   .navbar {
+      padding: 15px;
+      align-items: center;
+      text-align: center;
+    }
+
+    .navbar-toggler {
+      border-color: #ffffff; /* Set the color of the mobile menu button */
+    }
+
+    .navbar-toggler-icon {
+      background-color: #000000; /* Set the color of the mobile menu icon */
+    }
+
+    /* Sticky top navigation bar for larger screens */
+    @media (min-width: 992px) {
+      .navbar {
+        position: sticky;
+        top: 0;
+        background-color: #ffffff;
+        z-index: 1000;
       }
     }
